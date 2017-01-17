@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/card_pet2_edit"/>
+
+
+        <Button
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/finish_unfound"
+            android:text="신규 등록"
+            android:textSize="25dp"
+            android:textColor="@color/text_white"
+            android:background="@drawable/img_nxt_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"/>
+    </FrameLayout>
+
+</LinearLayout>

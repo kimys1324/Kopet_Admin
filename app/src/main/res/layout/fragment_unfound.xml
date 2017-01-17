@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:src="@drawable/img_fingerprint"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:text="비문 이미지"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:hint="E-mail"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:background="@drawable/img_unfound_box_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginBottom="10dp"
+        android:hint="password"
+        android:password="true"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:background="@drawable/img_unfound_box_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/unfound_nxt_btn"
+        android:text="신규 등록"
+        android:textSize="25dp"
+        android:textColor="@color/text_white"
+        android:background="@drawable/img_nxt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:scaleX="0.8"
+        android:scaleY="0.8"/>
+
+
+</LinearLayout>
